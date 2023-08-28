@@ -1,0 +1,31 @@
+/* the basic reset to remove padding and margin 
+also to set the box-sizing to border-box */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* setting the font-size to arial */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* the basic styling for the header class with contains the h1
+it is set to display flex column so the h1 can be aligned to the center
+it has a height of 70vh and a background-color of coral  */
+.header{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: coral;
+}
+
+/* set the color for the h1 element to white and the font-size to 4rem */
+.header h1{
+  font-size: 4rem;
+  color: white;
+}
+
